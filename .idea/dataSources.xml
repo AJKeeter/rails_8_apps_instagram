@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="rails_8_apps_instagram_development@localhost" uuid="21bab217-bdf1-49f4-8084-a5e7101a3402">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="rails_8_apps_instagram_development@localhost [2]" uuid="4c0315cc-5c7b-4ac9-abe7-925ae40677b3">
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/rails_8_apps_instagram_development</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
