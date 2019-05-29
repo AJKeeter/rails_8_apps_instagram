@@ -2,8 +2,8 @@
 %html
 %head
   %title Instagramm
-  -#= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
-  -#= javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  = stylesheet_link_tag    'application', media: 'all'
+  = javascript_include_tag 'application'
   = csrf_meta_tags
 
 %body
@@ -20,25 +20,9 @@
       - else
         %ul.nav.navbar-nav.navbar-left
           %li= link_to "Join", new_user_registration_path
-          %li= link_to "Log In", new_user_registration_path
+          %li= link_to "Log In", new_user_session_path
 
-  .contaienr
+  .container
     -flash.each do |name, msg |
       =content_tag :div, msg, class: "alert alert-info"
     = yield
-
--#<!DOCTYPE html>
--#<html>
--#
--#<head>
--#  <title>Rails8AppsInstagram</title>
--#  <%#= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
--#  <%#= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
--#  <%= csrf_meta_tags %>
--#</head>
--#<body>
--#
--#<%= yield %>
--#
--#</body>
--#</html>
