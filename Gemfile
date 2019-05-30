@@ -36,6 +36,10 @@ gem 'paperclip', '~> 4.2.0'
 
 gem 'masonry-rails', '~>0.2.1'
 
+gem 'acts_as_votable', '~> 0.10.0'
+
+gem 'bootstrap-glyphicons'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
