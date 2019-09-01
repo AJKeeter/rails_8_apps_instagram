@@ -61,3 +61,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'mini_magick', '~> 4.9', '>= 4.9.5'
+gem 'image_magick', '~> 0.1.9'
